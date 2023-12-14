@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I0MuiRbFnAe6IHIkK33Yu9gSbyQgRM1BEtlUSmAkDZP5SjJ/McLaFx2XUZaQ+1qwxzaXliqwWRBkTfr7FC+zlg==",
+  "dgSpecHash": "zNdjuhja6/6QuWH62zl21h5l3a4afLQ/VLwgBJyNZS9dKQnpKOS6ThgWHRpCn21SPOMzDxAy4yRV0LGxxklWrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\MvcApp_final\\MvcApp.csproj",
+  "projectFilePath": "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\ASP.net\\MvcApp_final\\MvcApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\taliz\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\taliz\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
