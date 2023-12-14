@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using Microsoft.EntityFrameworkCore;
 using MvcApp.Models;
 
@@ -7,6 +8,7 @@ string connection = "Server = (localdb)\\mssqllocaldb;Database = passengerstored
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddHostedService<BackgroundWorkerService>();
 
 var app = builder.Build();
 
