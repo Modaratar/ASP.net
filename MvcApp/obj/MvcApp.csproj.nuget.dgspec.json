@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\ASP.net\\MvcApp\\MvcApp.csproj": {}
+    "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\MvcApp\\MvcApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\ASP.net\\MvcApp\\MvcApp.csproj": {
+    "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\MvcApp\\MvcApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\ASP.net\\MvcApp\\MvcApp.csproj",
+        "projectUniqueName": "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\MvcApp\\MvcApp.csproj",
         "projectName": "MvcApp",
-        "projectPath": "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\ASP.net\\MvcApp\\MvcApp.csproj",
+        "projectPath": "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\MvcApp\\MvcApp.csproj",
         "packagesPath": "C:\\Users\\taliz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\ASP.net\\MvcApp\\obj\\",
+        "outputPath": "C:\\Users\\taliz\\Дистант\\3 сем маг\\РиИПСУ\\ЛР\\MvcApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taliz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

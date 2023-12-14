@@ -1,13 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using MvcApp.Models;    // пространство имен класса ApplicationContext
-
+using MvcApp.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// получаем строку подключения из файла конфигурации
-string connection = builder.Configuration.GetConnectionString("DefaultConnection");
-
-// добавляем контекст ApplicationContext в качестве сервиса в приложение
+string connection = "Server = (localdb)\\mssqllocaldb;Database = passengerstoredb;Trusted_Connection=true";
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connection));
 
 builder.Services.AddControllersWithViews();
