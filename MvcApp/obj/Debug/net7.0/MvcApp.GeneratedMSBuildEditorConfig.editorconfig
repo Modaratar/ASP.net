@@ -9,19 +9,27 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcApp
 build_property.RootNamespace = MvcApp
-build_property.ProjectDir = C:\Users\taliz\Дистант\3 сем маг\РиИПСУ\ЛР\MvcApp\
+build_property.ProjectDir = C:\Users\taliz\Дистант\3 сем маг\РиИПСУ\ЛР\ASP.net\MvcApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\taliz\Дистант\3 сем маг\РиИПСУ\ЛР\MvcApp
+build_property.MSBuildProjectDirectory = C:\Users\taliz\Дистант\3 сем маг\РиИПСУ\ЛР\ASP.net\MvcApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/taliz/Дистант/3 сем маг/РиИПСУ/ЛР/MvcApp/Views/Home/Create.cshtml]
+[C:/Users/taliz/Дистант/3 сем маг/РиИПСУ/ЛР/ASP.net/MvcApp/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/taliz/Дистант/3 сем маг/РиИПСУ/ЛР/MvcApp/Views/Home/Index.cshtml]
+[C:/Users/taliz/Дистант/3 сем маг/РиИПСУ/ЛР/ASP.net/MvcApp/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/taliz/Дистант/3 сем маг/РиИПСУ/ЛР/ASP.net/MvcApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/taliz/Дистант/3 сем маг/РиИПСУ/ЛР/ASP.net/MvcApp/Views/Home/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

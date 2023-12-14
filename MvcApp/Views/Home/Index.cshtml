@@ -1,37 +1,17 @@
-﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+﻿@model IEnumerable<MvcApp.Models.User>
 
-@using MvcApp.Models
-@model IndexViewModel
-
-<h1>Список пассажиров</h1>
-<p><a asp-action="Create">Новый пассажир</a></p>
-<form method="get">
-    <label>ФИО пассажира:  </label>
-    <input name="passenger_name" value="@Model.FilterViewModel.SelectedName" />
-
-    <label>Тип пассажира: </label>
-    <select name="passenger_type" asp-items="Model.FilterViewModel.Passenger_types"></select>
-
-    <label>Возраст пассажира:  </label>
-    <input name="passenger_age" value="@Model.FilterViewModel.SelectedAge" />
-
-    <input type="submit" value="Фильтр" />
-</form>
-
-<table>
-    <tr>
-        <th>
-            Тип пассажира
-        </th>
-        <th>ФИО</th>
-        <th>Возраст</th>
-    </tr>
-    @foreach (Passenger item in Model.Passengers)
+<h2>Список пользователей</h2>
+<p><a asp-action="Create">Добавить пользователя</a></p>
+<table class="table">
+    <tr><th>Имя</th><th>Возраст</th></tr>
+    @foreach (var item in Model)
     {
         <tr>
-            <td>@item.Passenger_type?.Name_passenger_type</td>
-            <td>@item.Passenger_name</td>
-            <td>@item.Passenger_age</td>
+            <td>@item.Name</td>
+            <td>@item.Age</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Home" asp-route-id="@item.Id">Изменить</a>
+            </td>
             <td>
                 <form asp-controller="Home" asp-action="Delete" method="post" asp-route-id="@item.Id">
                     <input type="submit" value="Удалить" />
@@ -40,25 +20,3 @@
         </tr>
     }
 </table>
-<p>
-    @if (Model.PageViewModel.HasPreviousPage)
-    {
-        <a asp-action="Index"
-           asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
-           asp-route-name="@(Model.FilterViewModel.SelectedName)"
-           asp-route-company="@(Model.FilterViewModel.Selected_Passenger_type)"
-           class="glyphicon glyphicon-chevron-left">
-            Назад
-        </a>
-    }
-    @if (Model.PageViewModel.HasNextPage)
-    {
-        <a asp-action="Index"
-           asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
-           asp-route-name="@(Model.FilterViewModel.SelectedName)"
-           asp-route-company="@(Model.FilterViewModel.Selected_Passenger_type)"
-           class="glyphicon glyphicon-chevron-right">
-            Вперед
-        </a>
-    }
-</p>
